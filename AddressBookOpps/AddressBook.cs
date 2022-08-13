@@ -13,6 +13,10 @@ namespace AddressBookOpps
         {
             this.ContactList = new List<Contact>();
         }
+        public void AddContact(Contact contactObj)
+        {
+            this.ContactList.Add(contactObj);
+        }
     }
 }
 
